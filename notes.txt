@@ -1,0 +1,81 @@
+1. var is used to define variables and can be changed  :
+    var a= string,integer ,will be direct
+    var a string, it used when user need to give value later
+    a:=string/interger, is a shorthand method and this is only used inside the func while others can be assigned outside of func
+2. data types:
+    - Basic Data Types:
+        Integers:
+            Signed integers (int, int8, int16, int32, int64) → Store positive and negative whole numbers.
+            Unsigned integers (uint, uint8, uint16, uint32, uint64, uintptr) → Store only non-negative whole numbers.
+        Floating Point Numbers:
+            float32 → Stores decimal numbers with single precision.
+            float64 → Stores decimal numbers with double precision.
+        Complex Numbers:
+            complex64 → Stores complex numbers using float32 parts.
+            complex128 → Stores complex numbers using float64 parts.
+        Byte:
+            byte → Alias of uint8, used for raw binary data.
+        Rune:
+            rune → Alias of int32, represents a Unicode character.
+        String:
+            string → Stores immutable UTF-8 encoded text.
+        Boolean:
+            bool → Stores true or false.
+
+    - Composite Data Types
+        Non-Reference Types:
+            Arrays → Fixed-size collection of elements.
+            Structs → Group different data types together.
+        Reference Types:
+            Slices → Dynamic view of an array.
+            Maps → Key–value data structure.
+            Channels → Used for goroutine communication.
+        Interface:
+            Interface → Defines behavior using method signatures.
+
+3. Const used when a variable does not need to be changed after it is declared.
+     same method as var is defined but does not have shorthand method
+
+4. For is the only construct in go for looping:
+     -range, used to iterate over collections (arrays, slices, maps, strings, channels)
+     -break, is used to exit the loop at a specific point in the loop.
+     -continue, is used to skip a specific part of the loop.
+5. if , we can also declare a variable inside if constructor.
+6. else if,
+7. else,
+8. Or operation we use ||
+9. And operation we use &&
+10. for equal to operation we use ==
+11. switch :
+     -case
+     -defualt
+12. interface, is used to give any type of datatype in go
+13. .type, is used to find type of the give value.
+14. array or map  always have default value when array or map is of int->0, str->"", Bool->False
+15. array is a fixed-size collection of elements of the same data type, stored in contiguous memory locations.
+     it must be used when you know the length of the array
+     also len of array must be declared a first of the array.
+16. Slice in Go is a dynamic, flexible view of an array. Unlike arrays, slices don’t have a fixed size.
+       -make,is a built-in function used to initialize and allocate memory for three specific built-in types: slices, maps, and channels.
+       -cap,is a built-in function that returns the capacity of a container
+       -len,The number of elements the window currently shows.
+       -append,is a built-in function used to add one or more elements to the end of a slice.
+       -copy, is a built-in function used to copy elements from one slice into another
+       -.Equal(s1, s2): Returns true if two slices have the same elements in the same order.
+       -.Contains(s, val): Checks if a specific value exists in the slice.
+       -.Index(s, val): Returns the index of the first occurrence of a value, or -1 if not found.
+       -.Insert(s, index, vals...): Inserts values at a specific index and returns the new slice.
+       -.Delete(s, i, j): Removes elements from index i to j-1.
+       -.Replace(s, i, j, vals...): Replaces the range [i,j) with new values.
+       -.Clip(s): Removes unused capacity from the slice (sets cap to len).
+       -.Sort(s): Sorts the slice in place (works on types like integers and strings).
+       -.Reverse(s): Reverses the order of elements in the slice in place.
+       -.IsSorted(s): Returns true if the slice is already sorted.
+17. Map is a built-in data structure that stores data as key-value pairs.
+       -len(m),Returns the number of items in the map.
+       -delete(m, key),Removes the element with the specified key.
+       -clear(m), (Go 1.21+) Removes all elements, leaving an empty map.
+18. Range keyword is used to iterate over elements in various data structures.
+19. function,
+        -(nums...)Variadic Functions! These are functions that can accept any number of arguments of a specific type.
+
