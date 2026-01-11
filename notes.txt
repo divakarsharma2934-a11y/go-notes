@@ -79,4 +79,4 @@
 19. function,
         -(nums...)Variadic Functions! These are functions that can accept any number of arguments of a specific type.
 20.closure, is a special type of anonymous function that "closes over" or references variables from outside its own body.
-
+21.Pointer is a variable that stores the memory address of another value, rather than the value itself.
