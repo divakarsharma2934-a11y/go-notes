@@ -80,3 +80,5 @@
         -(nums...)Variadic Functions! These are functions that can accept any number of arguments of a specific type.
 20.closure, is a special type of anonymous function that "closes over" or references variables from outside its own body.
 21.Pointer is a variable that stores the memory address of another value, rather than the value itself.
+22. *name, this return memory location of the value, is mainly used to change the value at the memory location.
+22. Struct (short for "structure") is a user-defined type that allows you to group together different fields of different types into a single unit.
