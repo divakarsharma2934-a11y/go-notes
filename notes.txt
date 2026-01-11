@@ -78,4 +78,5 @@
 18. Range keyword is used to iterate over elements in various data structures.
 19. function,
         -(nums...)Variadic Functions! These are functions that can accept any number of arguments of a specific type.
+20.closure, is a special type of anonymous function that "closes over" or references variables from outside its own body.
 
