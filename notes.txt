@@ -84,3 +84,6 @@
 22. Struct (short for "structure") is a user-defined type that allows you to group together different fields of different types into a single unit.
 23. Interface is a type that specifies a set of method signatures. It is one of the most powerful features of the language, allowing for flexible, modular, and decoupled code.
 24. Enum (short for Enumeration) is a distinct type that consists of a set of named constants.
+25. Generics allow you to write functions, structures, and methods that work with multiple types while maintaining strict compile-time type safety.
+      -any,keyword is simply an alias for the empty interface
+      -comparable ,keyword is a built-in interface that represents all types that can be compared using equality operators
