@@ -87,3 +87,4 @@
 25. Generics allow you to write functions, structures, and methods that work with multiple types while maintaining strict compile-time type safety.
       -any,keyword is simply an alias for the empty interface
       -comparable ,keyword is a built-in interface that represents all types that can be compared using equality operators
+26. Goroutine is a lightweight thread managed by the Go runtime.
