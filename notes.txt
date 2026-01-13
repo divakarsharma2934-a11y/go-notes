@@ -88,3 +88,5 @@
       -any,keyword is simply an alias for the empty interface
       -comparable ,keyword is a built-in interface that represents all types that can be compared using equality operators
 26. Goroutine is a lightweight thread managed by the Go runtime.
+     -WaitGroup is a synchronization tool in Go (from the sync package) used to wait for a collection of goroutines to finish executing.
+     - Defer,is a keyword used to schedule a function call to run immediately before the surrounding function returns.
