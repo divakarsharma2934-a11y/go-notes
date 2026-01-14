@@ -90,3 +90,9 @@
 26. Goroutine is a lightweight thread managed by the Go runtime.
      -WaitGroup is a synchronization tool in Go (from the sync package) used to wait for a collection of goroutines to finish executing.
      - Defer,is a keyword used to schedule a function call to run immediately before the surrounding function returns.
+27. Channels are the pipes that connect concurrent goroutines. They allow you to send values from one goroutine to another,
+     ensuring that they synchronize and communicate safely without the need for complex "locks" or shared memory.
+     -select statement in Go is like a switch statement, but specifically designed for channels.
+     -also we define whether the channel will receive value or send value (<-)
+     -channel is made using, nums:= make (chan data type)
+28.fmt.Sprintf is a function used to format a string and return it as a value, rather than printing it to the console
