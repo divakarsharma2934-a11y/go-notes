@@ -28,10 +28,18 @@ func main() {
 	//	println(d, string(buffer[i]))
 	//}
 
-	data, err := os.ReadFile("exa.txt")
+	//
+
+	dir, err := os.Open(".")
 	if err != nil {
 		panic(err)
 	}
-	fmt.Println(string(data))
-
+	defer dir.Close()
+	file, err := dir.ReadDir(10)
+	if err != nil {
+		panic(err)
+	}
+	for _, file := range file {
+		fmt.Println(file.Name(), file.IsDir())
+	}
 }

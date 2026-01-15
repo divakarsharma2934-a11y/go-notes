@@ -102,3 +102,7 @@
       -os.open(file name),Opens an existing file for reading only.
       -.stat(),
       -.Name(),
+      -read(),
+      -readdir(),
+      -Isdir(),
+      -Size()
