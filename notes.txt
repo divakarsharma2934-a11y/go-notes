@@ -96,3 +96,4 @@
      -also we define whether the channel will receive value or send value (<-)
      -channel is made using, nums:= make (chan data type)
 28.fmt.Sprintf is a function used to format a string and return it as a value, rather than printing it to the console
+29. Mutex (short for Mutual Exclusion) is a synchronization primitive used to prevent multiple goroutines from accessing the same shared resource at the same time.
