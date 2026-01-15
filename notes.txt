@@ -105,4 +105,7 @@
       -read(),
       -readdir(),
       -Isdir(),
-      -Size()
+      -Size(),
+      -.Flush(),
+      -bufio,
+      -os.Remove(filename),
